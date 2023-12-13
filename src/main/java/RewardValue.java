@@ -1,6 +1,6 @@
 public class RewardValue {
-    private double cash;
-    private Double miles;
+    private final double cash;
+    private final Double miles;
 
     public RewardValue(double cash){
         this.cash = cash;
